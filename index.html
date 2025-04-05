@@ -1,225 +1,182 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix Clone</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
     <header class="navbar">
-      <div class="navbar-container">
-        <div class="logo">
-          <a href="#">
-            <img src="assets\logo\logo-horizontal-branca.png" alt="provisorio logo" />
-          </a>
+        <div class="navbar-container">
+            <div class="logo">
+                <a href="#">
+                    <img src="assets/logo/logo-horizontal-branca.png" alt="Logo">
+                </a>
+            </div>
+            <div class="nav-links">
+                <a href="#" class="active">Início</a>
+                <a href="#">Cursos</a>
+                <a href="vendas.html">Vendas</a>
+                <a href="#">Meus cursos</a>
+            </div>
+            <div class="nav-right">
+                <div class="search-box">
+                    <img src="https://img.icons8.com/ios-filled/50/ffffff/search--v1.png" alt="Pesquisar">
+                </div>
+                <div class="notification">
+                    <img src="https://img.icons8.com/ios-filled/50/ffffff/appointment-reminders--v1.png" alt="Notificações">
+                </div>
+                <div class="profile">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="Perfil">
+                </div>
+            </div>
         </div>
-        <div class="nav-links"> 
-          <a href="#" class="active">Início</a>
-          <a href="#">Cursos</a>
-          <a href="#">vendas</a>
-          <a href="#">Meus cursos</a>
-        </div>
-        <div class="nav-right">
-          <div class="search-box">
-            <img src="https://img.icons8.com/ios-filled/50/ffffff/search--v1.png" alt="search" />
-          </div>
-          <div class="notification">
-            <img src="https://img.icons8.com/ios-filled/50/ffffff/appointment-reminders--v1.png" alt="notification" />
-          </div>
-          <div class="profile">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="profile" />
-          </div>
-        </div>
-      </div>
     </header>
 
     <div class="hero">
-      <div class="hero-content">
-        <h1 class="hero-title">veja nossos cursos</h1>
-        <p class="hero-description">
-          Lorem Ipsum What is Lorem Ipsum?
-
-
-        </p>
-        <div class="hero-buttons">
-          <button class="btn play-btn">
-            <img src="https://img.icons8.com/ios-filled/50/000000/play--v1.png" alt="play" />
-            Assistir
+        <div class="hero-content">
+            <h1 class="hero-title">Veja nossos cursos</h1>
+            <p class="hero-description">
+                Lorem Ipsum What is Lorem Ipsum?
+            </p>
         </div>
-      </div>
-      <div class="hero-overlay"></div>
-      <img class="hero-bg" src="fundo.jpg" alt="FUNDO provisorio" />
+        <div class="hero-overlay"></div>
+        <img class="hero-bg" src="fundo.jpg" alt="Fundo Hero">
     </div>
 
     <div class="content">
-      <section class="category">
-        <h2 class="category-title">Cursos Populares</h2>
-        <div class="curses-row">
-          <div class="curse-item">
-            <img src="assets\cursos-templates\vizupro.jpg" alt="Curso" />
-            <div class="curse-info">
-              <h3>Curso</h3>
-              <div class="curse-buttons">
-                <button class="circle-btn"><img src="https://img.icons8.com/ios-filled/50/ffffff/play--v1.png" alt="play" /></button>
-                <button class="circle-btn"><img src="https://img.icons8.com/ios-filled/50/ffffff/plus-math--v1.png" alt="add" /></button>
-              </div>
+        <section class="category">
+            <div class="category-header">
+                <h2 class="category-title">Cursos Populares</h2>
+                <div class="carrossel-controls">
+                    <button class="carrossel-prev">←</button>
+                    <button class="carrossel-next">→</button>
+                </div>
             </div>
-          </div>
-          <div class="curse-item">
-            <img src="assets\cursos-templates\vizupro.jpg" alt="Curso" />
-            <div class="curse-info">
-              <h3>Curso</h3>
-              <div class="curse-buttons">
-                <button class="circle-btn"><img src="https://img.icons8.com/ios-filled/50/ffffff/play--v1.png" alt="play" /></button>
-                <button class="circle-btn"><img src="https://img.icons8.com/ios-filled/50/ffffff/plus-math--v1.png" alt="add" /></button>
-              </div>
+            <div class="curses-row">
+                <div class="curse-item">
+                    <img src="assets/cursos-templates/vizupro.jpg" alt="Curso de Design Gráfico">
+                    <div class="curse-info">
+                        <h3>Design Gráfico</h3>
+                    </div>
+                </div>
+                <div class="curse-item">
+                    <img src="assets/cursos-templates/vizupro.jpg" alt="Curso de Programação Web">
+                    <div class="curse-info">
+                        <h3>Programação Web</h3>
+                    </div>
+                </div>
+                <div class="curse-item">
+                    <img src="assets/cursos-templates/vizupro.jpg" alt="Curso de Marketing Digital">
+                    <div class="curse-info">
+                        <h3>Marketing Digital</h3>
+                    </div>
+                </div>
+                <div class="curse-item">
+                    <img src="assets/cursos-templates/vizupro.jpg" alt="Curso de Fotografia">
+                    <div class="curse-info">
+                        <h3>Fotografia Profissional</h3>
+                    </div>
+                </div>
+                <div class="curse-item">
+                    <img src="assets/cursos-templates/vizupro.jpg" alt="Curso de Edição de Vídeo">
+                    <div class="curse-info">
+                        <h3>Edição de Vídeo</h3>
+                    </div>
+                </div>
+                <div class="curse-item">
+                    <img src="assets/cursos-templates/vizupro.jpg" alt="Curso de Ilustração Digital">
+                    <div class="curse-info">
+                        <h3>Ilustração Digital</h3>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="curse-item">
-            <img src="assets\cursos-templates\vizupro.jpg" alt="Curso" />
-            <div class="curse-info">
-              <h3>Curso</h3>
-              <div class="curse-buttons">
-                <button class="circle-btn"><img src="https://img.icons8.com/ios-filled/50/ffffff/play--v1.png" alt="play" /></button>
-                <button class="circle-btn"><img src="https://img.icons8.com/ios-filled/50/ffffff/plus-math--v1.png" alt="add" /></button>
-              </div>
-            </div>
-          </div>
-          <div class="curse-item">
-            <img src="assets\cursos-templates\vizupro.jpg" alt="Curso" />
-            <div class="curse-info">
-              <h3>Curso</h3>
-              <div class="curse-buttons">
-                <button class="circle-btn"><img src="https://img.icons8.com/ios-filled/50/ffffff/play--v1.png" alt="play" /></button>
-                <button class="circle-btn"><img src="https://img.icons8.com/ios-filled/50/ffffff/plus-math--v1.png" alt="add" /></button>
-              </div>
-            </div>
-          </div>
-          <div class="curse-item">
-            <img src="assets\cursos-templates\vizupro.jpg" alt="Curso" />
-            <div class="curse-info">
-              <h3>Curso</h3>
-              <div class="curse-buttons">
-                <button class="circle-btn"><img src="https://img.icons8.com/ios-filled/50/ffffff/play--v1.png" alt="play" /></button>
-                <button class="circle-btn"><img src="https://img.icons8.com/ios-filled/50/ffffff/plus-math--v1.png" alt="add" /></button>
-              </div>
-            </div>
-          </div>
-          <div class="curse-item">
-            <img src="assets\cursos-templates\vizupro.jpg" alt="Curso" />
-            <div class="curse-info">
-              <h3>Curso</h3>
-              <div class="curse-buttons">
-                <button class="circle-btn"><img src="https://img.icons8.com/ios-filled/50/ffffff/play--v1.png" alt="play" /></button>
-                <button class="circle-btn"><img src="https://img.icons8.com/ios-filled/50/ffffff/plus-math--v1.png" alt="add" /></button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <section class="category">
-        <h2 class="category-title">Em alta</h2>
-        <div class="curses-row">
-          <div class="curse-item">
-            <img src="assets\cursos-templates\vizupro.jpg" alt="Curso" />
-            <div class="curse-info">
-              <h3>Curso</h3>
-              <div class="curse-buttons">
-                <button class="circle-btn"><img src="https://img.icons8.com/ios-filled/50/ffffff/play--v1.png" alt="play" /></button>
-                <button class="circle-btn"><img src="https://img.icons8.com/ios-filled/50/ffffff/plus-math--v1.png" alt="add" /></button>
-              </div>
+        <section class="category">
+            <div class="category-header">
+                <h2 class="category-title">Em alta</h2>
+                <div class="carrossel-controls">
+                    <button class="carrossel-prev">←</button>
+                    <button class="carrossel-next">→</button>
+                </div>
             </div>
-          </div>
-          <div class="curse-item">
-            <img src="assets\cursos-templates\vizupro.jpg" alt="Curso" />
-            <div class="curse-info">
-              <h3>Curso</h3>
-              <div class="curse-buttons">
-                <button class="circle-btn"><img src="https://img.icons8.com/ios-filled/50/ffffff/play--v1.png" alt="play" /></button>
-                <button class="circle-btn"><img src="https://img.icons8.com/ios-filled/50/ffffff/plus-math--v1.png" alt="add" /></button>
-              </div>
+            <div class="curses-row">
+                <div class="curse-item">
+                    <img src="assets/cursos-templates/vizupro.jpg" alt="Curso de Inteligência Artificial">
+                    <div class="curse-info">
+                        <h3>Inteligência Artificial</h3>
+                    </div>
+                </div>
+                <div class="curse-item">
+                    <img src="assets/cursos-templates/vizupro.jpg" alt="Curso de Data Science">
+                    <div class="curse-info">
+                        <h3>Data Science</h3>
+                    </div>
+                </div>
+                <div class="curse-item">
+                    <img src="assets/cursos-templates/vizupro.jpg" alt="Curso de UX/UI Design">
+                    <div class="curse-info">
+                        <h3>UX/UI Design</h3>
+                    </div>
+                </div>
+                <div class="curse-item">
+                    <img src="assets/cursos-templates/vizupro.jpg" alt="Curso de Cloud Computing">
+                    <div class="curse-info">
+                        <h3>Cloud Computing</h3>
+                    </div>
+                </div>
+                <div class="curse-item">
+                    <img src="assets/cursos-templates/vizupro.jpg" alt="Curso de Blockchain">
+                    <div class="curse-info">
+                        <h3>Blockchain</h3>
+                    </div>
+                </div>
+                <div class="curse-item">
+                    <img src="assets/cursos-templates/vizupro.jpg" alt="Curso de DevOps">
+                    <div class="curse-info">
+                        <h3>DevOps</h3>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="curse-item">
-            <img src="assets\cursos-templates\vizupro.jpg" alt="Curso" />
-            <div class="curse-info">
-              <h3>Curso</h3>
-              <div class="curse-buttons">
-                <button class="circle-btn"><img src="https://img.icons8.com/ios-filled/50/ffffff/play--v1.png" alt="play" /></button>
-                <button class="circle-btn"><img src="https://img.icons8.com/ios-filled/50/ffffff/plus-math--v1.png" alt="add" /></button>
-              </div>
-            </div>
-          </div>
-          <div class="curse-item">
-            <img src="assets\cursos-templates\vizupro.jpg" alt="Curso" />
-            <div class="curse-info">
-              <h3>Curso</h3>
-              <div class="curse-buttons">
-                <button class="circle-btn"><img src="https://img.icons8.com/ios-filled/50/ffffff/play--v1.png" alt="play" /></button>
-                <button class="circle-btn"><img src="https://img.icons8.com/ios-filled/50/ffffff/plus-math--v1.png" alt="add" /></button>
-              </div>
-            </div>
-          </div>
-          <div class="curse-item">
-            <img src="assets\cursos-templates\vizupro.jpg" alt="Curso" />
-            <div class="curse-info">
-              <h3>Curso</h3>
-              <div class="curse-buttons">
-                <button class="circle-btn"><img src="https://img.icons8.com/ios-filled/50/ffffff/play--v1.png" alt="play" /></button>
-                <button class="circle-btn"><img src="https://img.icons8.com/ios-filled/50/ffffff/plus-math--v1.png" alt="add" /></button>
-              </div>
-            </div>
-          </div>
-          <div class="curse-item">
-            <img src="assets\cursos-templates\vizupro.jpg" alt="Curso" />
-            <div class="curse-info">
-              <h3>Curso</h3>
-              <div class="curse-buttons">
-                <button class="circle-btn"><img src="https://img.icons8.com/ios-filled/50/ffffff/play--v1.png" alt="play" /></button>
-                <button class="circle-btn"><img src="https://img.icons8.com/ios-filled/50/ffffff/plus-math--v1.png" alt="add" /></button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
     </div>
 
     <footer>
-      <div class="footer-content">
-        <div class="social-links">
-          <a href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/facebook--v1.png" alt="Facebook" /></a>
-          <a href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new--v1.png" alt="Instagram" /></a>
-          <a href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/twitter--v1.png" alt="Twitter" /></a>
-          <a href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/youtube-play--v1.png" alt="YouTube" /></a>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/facebook--v1.png" alt="Facebook"></a>
+                <a href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/instagram-new--v1.png" alt="Instagram"></a>
+                <a href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/twitter--v1.png" alt="Twitter"></a>
+                <a href="#"><img src="https://img.icons8.com/ios-filled/50/ffffff/youtube-play--v1.png" alt="YouTube"></a>
+            </div>
+            <div class="footer-links">
+                <div class="footer-links-column">
+                    <a href="#">Sobre nós</a>
+                    <a href="#">Carreiras</a>
+                    <a href="#">Termos de uso</a>
+                </div>
+                <div class="footer-links-column">
+                    <a href="#">Privacidade</a>
+                    <a href="#">Preferências de cookies</a>
+                    <a href="#">Informações corporativas</a>
+                </div>
+                <div class="footer-links-column">
+                    <a href="#">Central de ajuda</a>
+                    <a href="#">Contato</a>
+                    <a href="#">Teste de velocidade</a>
+                </div>
+                <div class="footer-links-column">
+                    <a href="#">Avisos legais</a>
+                    <a href="#">Só na plataforma</a>
+                    <a href="#">Mapa do site</a>
+                </div>
+            </div>
+            <p class="copyright">© 2025 Plataforma de Cursos. Todos os direitos reservados.</p>
         </div>
-        <div class="footer-links">
-          <div class="footer-links-column">
-            <a href="#">#############</a>
-            <a href="#">#############</a>
-            <a href="#">#############</a>
-          </div>
-          <div class="footer-links-column">
-            <a href="#">#############</a>
-            <a href="#">#############</a>
-            <a href="#">#############</a>
-          </div>
-          <div class="footer-links-column">
-            <a href="#">#############</a>
-            <a href="#">#############</a>
-            <a href="#">#############</a>
-          </div>
-          <div class="footer-links-column">
-            <a href="#">#############</a>
-            <a href="#">#############</a>
-            <a href="#">#############</a>
-          </div>
-        </div>
-        <p class="copyright">© #############. All rights reserved.</p>
-      </div>
     </footer>
 
     <script src="script.js"></script>
-  </body>
+</body>
 </html>
